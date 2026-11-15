@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GreenBasket Farm Produce | Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- The header shows the stall logo and name. -->
+  <header>
+    <img src="images/logo.svg" alt="GreenBasket leaf growing from a produce basket">
+    <span class="brand">GreenBasket Farm Produce</span>
+  </header>
+
+  <!-- These links let visitors move between all four pages. -->
+  <nav aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Products</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <!-- The main section shares fictional contact details and a sample form. -->
+  <main>
+    <h1>Contact Us</h1>
+    <!-- These sample details are fictional and work without internet access. -->
+    <div class="box">
+      <h2>Sample Contact Details</h2>
+      <p><strong>Phone:</strong> 0770-000-000 (fictional sample)</p>
+      <p><strong>Email:</strong> hello@greenbasket.example (fictional sample)</p>
+      <p><strong>Address:</strong> Sample Market Road, Monrovia, Liberia (fictional)</p>
+    </div>
+
+    <!-- This form demonstrates common HTML fields; it has no backend. -->
+    <div class="box">
+      <h2>Send an Inquiry</h2>
+      <form action="#" method="get">
+        <label for="name">Your name</label>
+        <input type="text" id="name" name="name">
+
+        <label for="email">Your email</label>
+        <input type="email" id="email" name="email">
+
+        <label for="produce">Produce you are asking about</label>
+        <select id="produce" name="produce">
+          <option value="cassava">Cassava</option>
+          <option value="plantain">Plantain</option>
+          <option value="hot-pepper">Hot pepper</option>
+        </select>
+
+        <label for="message">Your message</label>
+        <textarea id="message" name="message" rows="5"></textarea>
+
+        <button type="submit">Send sample inquiry</button>
+      </form>
+      <p>This demonstration form does not send or save messages.</p>
+    </div>
+  </main>
+
+  <!-- The footer identifies this as a class project. -->
+  <footer><p>&copy; 2026 GreenBasket Farm Produce | Fictional ART 277 class project</p></footer>
+</body>
+</html>

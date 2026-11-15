@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title description">
+  <title id="title">GreenBasket Farm Produce logo</title>
+  <desc id="description">A green leaf growing from a golden produce basket</desc>
+  <!-- A warm circle makes the simple green basket logo easy to see. -->
+  <circle cx="80" cy="80" r="76" fill="#E9C96A"/>
+  <!-- The stem connects the leaf to the basket. -->
+  <path d="M80 78 C78 59 83 42 96 29" fill="none" stroke="#316B3C" stroke-width="5" stroke-linecap="round"/>
+  <!-- Two leaf shapes form a small growing plant. -->
+  <path d="M80 63 C54 60 50 41 54 27 C73 28 86 41 80 63Z" fill="#316B3C"/>
+  <path d="M82 49 C83 29 101 19 117 22 C116 40 102 53 82 55Z" fill="#4E8B50"/>
+  <path d="M58 31 C67 40 74 49 80 60 M112 27 C100 34 91 42 84 52" fill="none" stroke="#E9C96A" stroke-width="2"/>
+  <!-- The basket rim and curved body sit below the growing leaf. -->
+  <path d="M36 78 Q80 65 124 78" fill="none" stroke="#316B3C" stroke-width="7" stroke-linecap="round"/>
+  <path d="M42 82 L52 125 Q80 139 108 125 L118 82Z" fill="#316B3C"/>
+  <!-- Gold lines suggest woven basket slats. -->
+  <path d="M58 85 L64 128 M80 82 L80 133 M102 85 L96 128" fill="none" stroke="#E9C96A" stroke-width="4" stroke-linecap="round"/>
+  <path d="M47 102 Q80 111 113 102" fill="none" stroke="#E9C96A" stroke-width="3"/>
+</svg>
