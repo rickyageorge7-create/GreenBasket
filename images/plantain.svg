@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420">
+<rect width="640" height="420" fill="#EFF4EC"/><path d="M0 330 Q160 300 320 330 T640 320 V420 H0Z" fill="#DCE8D7"/>
+<g fill="#E9C96A" stroke="#B18B28" stroke-width="7">
+<path d="M150 100 Q220 50 300 120 Q350 170 325 245 Q260 210 210 170 Q170 140 150 100Z"/>
+<path d="M250 75 Q330 30 405 105 Q455 155 425 230 Q365 195 315 145 Q275 115 250 75Z"/>
+<path d="M335 115 Q420 75 490 150 Q530 200 490 265 Q435 225 390 180 Q350 150 335 115Z"/>
+</g><g fill="#316B3C"><path d="M150 100l-22 -20 18 38zM250 75l-22 -20 18 38zM335 115l-22 -20 18 38z"/></g>
+<text x="320" y="380" font-family="Arial" font-size="30" text-anchor="middle" fill="#316B3C" font-weight="bold">LOCAL PLANTAINS</text></svg>

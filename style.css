@@ -1,65 +1,190 @@
-/* These colors are used throughout the GreenBasket pages. */
 :root {
-  --green: #316B3C;
-  --gold: #E9C96A;
+  --primary-green: #316B3C;
+  --secondary-green: #427D4B;
+  --accent-yellow: #E9C96A;
+  --accent-yellow-hover: #D8B653;
+  --cream: #FAF9F2;
+  --white: #FFFFFF;
+  --tint: #EFF4EC;
+  --dark: #1F2922;
+  --muted: #526056;
+  --border: #DCE6D9;
+  --radius: 12px;
+  --shadow: 0 5px 18px rgba(49, 107, 60, .09);
 }
 
-/* Basic text and page colors keep the site easy to read. */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  color: #222;
-  background: #faf9f3;
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--cream);
+  color: var(--dark);
+  line-height: 1.65;
 }
+img { display: block; max-width: 100%; }
+a { color: inherit; text-decoration: none; }
+.container { width: min(92%, 1120px); margin: auto; }
 
-/* The header holds the logo and the business name. */
-header {
+.site-header {
+  background: var(--white);
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.navbar {
+  min-height: 76px;
   display: flex;
   align-items: center;
-  gap: 12px;
-  padding: 12px 20px;
-  background: var(--green);
-  color: white;
+  justify-content: space-between;
+  gap: 20px;
 }
+.brand {
+  color: var(--primary-green);
+  font-size: 1.35rem;
+  font-weight: 800;
+  letter-spacing: -.5px;
+}
+.brand span { color: #9A7724; }
+.nav-links {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+}
+.nav-links a { font-weight: 700; color: var(--dark); }
+.nav-links a:hover, .nav-links a.active { color: var(--primary-green); }
 
-header img { width: 64px; height: 64px; }
-.brand { font-size: 1.4rem; font-weight: bold; }
+.hero {
+  color: var(--white);
+  text-align: center;
+  padding: 82px 18px;
+  background: linear-gradient(135deg, #234E2D, var(--primary-green));
+}
+.hero-content { max-width: 790px; margin: auto; }
+.eyebrow {
+  color: var(--accent-yellow);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: .8rem;
+  font-weight: 800;
+}
+.hero h1 { font-size: clamp(2rem, 5vw, 3.3rem); line-height: 1.15; margin: 12px 0; }
+.hero p { color: #EAF2E9; font-size: 1.08rem; margin: 0 auto 25px; max-width: 700px; }
+.button {
+  display: inline-block;
+  padding: 12px 20px;
+  border-radius: 8px;
+  background: var(--accent-yellow);
+  color: #243B27;
+  font-weight: 800;
+  border: 0;
+  cursor: pointer;
+}
+.button:hover { background: var(--accent-yellow-hover); }
+.button-outline {
+  background: transparent;
+  color: var(--white);
+  border: 1px solid rgba(255,255,255,.75);
+  margin-left: 8px;
+}
+.button-outline:hover { background: rgba(255,255,255,.12); }
 
-/* The navigation links appear below the header. */
-nav { padding: 12px 20px; background: #244c2d; }
-nav a { margin-right: 18px; color: var(--gold); font-weight: bold; }
-nav a:hover { color: white; }
+section { padding: 64px 0; }
+.section-heading { text-align: center; max-width: 720px; margin: 0 auto 34px; }
+.section-heading h2 { color: var(--primary-green); font-size: clamp(1.7rem, 4vw, 2.2rem); }
+.section-heading p { color: var(--muted); margin-top: 8px; }
+.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
+.card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+.card-body { padding: 20px; }
+.card h3 { color: var(--primary-green); margin-bottom: 7px; }
+.card p { color: var(--muted); }
+.product-image { background: var(--tint); aspect-ratio: 4 / 3; overflow: hidden; }
+.product-image img { width: 100%; height: 100%; object-fit: cover; }
+.tag {
+  display: inline-block;
+  background: var(--tint);
+  color: var(--primary-green);
+  border-radius: 30px;
+  padding: 4px 10px;
+  font-size: .75rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+.soft-section { background: var(--tint); border-block: 1px solid var(--border); }
+.info-card {
+  padding: 23px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--white);
+}
+.info-card h3 { color: var(--primary-green); margin-bottom: 8px; }
+.info-card p { color: var(--muted); }
+.team-card { border-top: 5px solid var(--accent-yellow); }
+.contribution {
+  background: #F7F1D9;
+  border-left: 5px solid var(--accent-yellow);
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 24px;
+}
+.contribution h3 { color: var(--primary-green); margin-bottom: 7px; }
 
-/* Main content stays centered and readable on wide screens. */
-main { max-width: 850px; margin: 24px auto; padding: 0 20px; }
-h1, h2 { color: var(--green); }
-.box { margin: 18px 0; padding: 14px 18px; background: white; border-left: 5px solid var(--gold); }
-.highlight { color: var(--green); font-weight: bold; }
-.home-image { display: block; width: 100%; max-width: 520px; height: auto; }
+.table-wrap { overflow-x: auto; background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); }
+table { width: 100%; border-collapse: collapse; min-width: 560px; }
+th, td { padding: 15px 17px; text-align: left; border-bottom: 1px solid var(--border); }
+th { background: var(--primary-green); color: var(--white); }
+tr:nth-child(even) td { background: #F7FAF5; }
+.note { color: var(--muted); font-size: .9rem; margin-top: 12px; }
 
-/* Produce pictures sit beside each other when there is enough room. */
-.produce-gallery { display: flex; flex-wrap: wrap; gap: 12px; }
-.produce-gallery figure { margin: 0; text-align: center; }
-.produce-gallery img { display: block; width: 220px; height: 160px; object-fit: cover; border: 2px solid var(--gold); }
-.produce-gallery figcaption { font-weight: bold; }
+.steps { counter-reset: step; }
+.step { position: relative; }
+.step-number {
+  display: inline-block;
+  background: var(--accent-yellow);
+  color: var(--primary-green);
+  padding: 4px 11px;
+  border-radius: 6px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+form { display: grid; gap: 14px; }
+label { display: block; font-weight: 700; margin-bottom: 5px; }
+input, select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #C8D5C7;
+  border-radius: 7px;
+  background: var(--white);
+  font: inherit;
+}
+textarea { min-height: 125px; resize: vertical; }
+.form-note { color: var(--muted); font-size: .9rem; }
 
-/* The price table uses clear borders and headings. */
-table { width: 100%; border-collapse: collapse; background: white; }
-th, td { padding: 9px; border: 1px solid #999; text-align: left; }
-th { background: var(--green); color: white; }
+footer {
+  background: #234E2D;
+  color: #EAF2E9;
+  text-align: center;
+  padding: 35px 0 22px;
+}
+footer h2 { color: var(--white); margin-bottom: 5px; }
+footer p { margin: 5px 0; }
+.footer-bottom { border-top: 1px solid rgba(255,255,255,.2); margin-top: 22px; padding-top: 17px; font-size: .85rem; color: #C9D9CA; }
 
-/* Form controls are shown on separate lines with clear labels. */
-label { display: block; margin-top: 12px; font-weight: bold; }
-input, select, textarea { box-sizing: border-box; display: block; width: 100%; max-width: 420px; padding: 8px; font: inherit; }
-button { margin-top: 14px; padding: 9px 16px; border: 0; background: var(--green); color: white; font: inherit; cursor: pointer; }
-button:hover { background: #244c2d; }
-
-/* The footer closes every page with the project note. */
-footer { margin-top: 30px; padding: 12px; background: var(--green); color: white; text-align: center; }
-
-/* On narrow screens, navigation links get more room to wrap. */
-@media (max-width: 480px) {
-  nav a { display: inline-block; margin: 4px 14px 4px 0; }
-  .brand { font-size: 1.1rem; }
+@media (max-width: 760px) {
+  .navbar { flex-direction: column; justify-content: center; padding: 15px 0; }
+  .nav-links { justify-content: center; gap: 13px 18px; }
+  .grid { grid-template-columns: 1fr 1fr; }
+  section { padding: 48px 0; }
+  .hero { padding: 62px 16px; }
+}
+@media (max-width: 520px) {
+  .grid { grid-template-columns: 1fr; }
+  .button-outline { margin: 10px 0 0; }
 }

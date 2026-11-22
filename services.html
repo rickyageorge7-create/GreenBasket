@@ -1,73 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GreenBasket Farm Produce | Products</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <!-- The header shows the stall logo and name. -->
-  <header>
-    <img src="images/logo.svg" alt="GreenBasket leaf growing from a produce basket">
-    <span class="brand">GreenBasket Farm Produce</span>
-  </header>
-
-  <!-- These links let visitors move between all four pages. -->
-  <nav aria-label="Main navigation">
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="services.html">Products</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-
-  <!-- The main section lists produce, ordering steps, and sample prices. -->
-  <main>
-    <h1>Our Products</h1>
-
-    <!-- This unordered list shows the three local produce examples. -->
-    <div class="box">
-      <h2>Local Produce</h2>
-      <ul>
-        <li>Cassava</li>
-        <li>Plantain</li>
-        <li>Hot pepper</li>
-      </ul>
-    </div>
-
-    <!-- These local images show examples of the listed produce. -->
-    <div class="produce-gallery">
-      <figure><img src="images/cassava.jpg" alt="Cassava roots"><figcaption>Cassava</figcaption></figure>
-      <figure><img src="images/plantain.jpg" alt="A bunch of green plantains"><figcaption>Plantain</figcaption></figure>
-      <figure><img src="images/pepper.jpg" alt="Fresh hot peppers"><figcaption>Hot pepper</figcaption></figure>
-    </div>
-
-    <!-- This ordered list explains the simple sample ordering process. -->
-    <div class="box">
-      <h2>How to Order</h2>
-      <ol>
-        <li>Choose the produce you would like.</li>
-        <li>Tell the stall how much you need.</li>
-        <li>Arrange to pick up your order at the stall.</li>
-      </ol>
-    </div>
-
-    <!-- This table gives fictional example prices in Liberian dollars. -->
-    <div class="box">
-      <h2>Sample Units and Prices (LRD)</h2>
-      <table>
-        <thead><tr><th scope="col">Produce</th><th scope="col">Unit</th><th scope="col">Price (LRD)</th></tr></thead>
-        <tbody>
-          <tr><td>Cassava</td><td>Per bucket</td><td>500</td></tr>
-          <tr><td>Plantain</td><td>Per bunch</td><td>400</td></tr>
-          <tr><td>Hot pepper</td><td>Per cup</td><td>150</td></tr>
-        </tbody>
-      </table>
-      <p>All prices are fictional samples for this class project.</p>
-    </div>
-  </main>
-
-  <!-- The footer identifies this as a class project. -->
-  <footer><p>&copy; 2026 GreenBasket Farm Produce | Fictional ART 277 class project</p></footer>
-</body>
-</html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Products and Services | GreenBasket</title><link rel="stylesheet" href="style.css"></head><body>
+<header class="site-header"><div class="container navbar">
+<a class="brand" href="index.html">🌿 Green<span>Basket</span></a>
+<nav aria-label="Main navigation"><ul class="nav-links">
+<li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li>
+<li><a href="services.html">Products &amp; Services</a></li><li><a href="contact.html">Contact</a></li>
+</ul></nav></div></header><main>
+<section class="hero"><div class="hero-content"><div class="eyebrow">Products and services</div><h1>Local Produce and Sample Prices</h1>
+<p>Explore three examples of locally available produce, their selling units and illustrative prices.</p></div></section>
+<section><div class="container"><div class="section-heading"><h2>Produce Units and Price Table</h2><p>Sample product information for demonstrating an HTML table.</p></div>
+<div class="table-wrap"><table><thead><tr><th>Product</th><th>Unit</th><th>Sample Price (LRD)</th></tr></thead>
+<tbody><tr><td>Fresh Cassava</td><td>Per small bag</td><td>LRD 1,500</td></tr>
+<tr><td>Sweet Plantains</td><td>Per bunch</td><td>LRD 800</td></tr>
+<tr><td>Red Palm Oil</td><td>Per gallon</td><td>LRD 2,500</td></tr></tbody></table></div>
+<p class="note"><strong>Class-project note:</strong> These prices are fictional examples for the assignment, not verified market prices. Replace them with researched local prices if your lecturer requires it.</p>
+</div></section>
+<section class="soft-section"><div class="container"><div class="section-heading"><h2>Original Produce Illustrations</h2><p>These simple original SVG illustrations are included as visual examples for the project.</p></div>
+<div class="grid">
+<article class="card"><div class="product-image"><img src="https://images.unsplash.com/photo-1757281096972-10fd02b0f5ea?auto=format&amp;fit=crop&amp;w=1200&amp;q=85" alt="Freshly harvested cassava tubers"></div><div class="card-body"><h3>Cassava</h3><p>A widely used root crop in Liberia.</p></div></article>
+<article class="card"><div class="product-image"><img src="https://images.unsplash.com/photo-1721400500658-73222904fc5d?auto=format&amp;fit=crop&amp;w=1200&amp;q=85" alt="A bunch of fresh sweet plantains"></div><div class="card-body"><h3>Plantains</h3><p>A familiar local food crop.</p></div></article>
+<article class="card"><div class="product-image"><img src="https://img500.exportersindia.com/product_images/bc-500/dir_84/2515578/red-palm-oil-842253.jpg" alt="Pure red palm oil in a clean glass container"></div><div class="card-body"><h3>Palm Oil</h3><p>A traditional cooking product.</p></div></article>
+</div></div></section>
+<section><div class="container"><div class="section-heading"><h2>Our Simple Services</h2></div><div class="grid">
+<div class="info-card"><h3>Product Information</h3><p>Provide descriptions and units for featured produce.</p></div>
+<div class="info-card"><h3>Availability Inquiry</h3><p>Allow customers to ask whether a product is available.</p></div>
+<div class="info-card"><h3>Pickup or Delivery Inquiry</h3><p>Let customers ask about possible pickup or delivery arrangements.</p></div>
+</div></div></section>
+</main><footer><div class="container">
+<h2>GreenBasket Farm Produce</h2>
+<p>Fresh local agricultural produce for households, markets and food businesses.</p>
+<p>Location: [Add your town/area] · Phone/WhatsApp: [Add your group contact]</p>
+<div class="footer-bottom">© 2026 GreenBasket Farm Produce · Group 10 · ART 277</div>
+</div></footer></body></html>

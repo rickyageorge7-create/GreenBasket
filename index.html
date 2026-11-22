@@ -1,39 +1,161 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GreenBasket Farm Produce | Home</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <!-- The header shows the stall logo and name. -->
-  <header>
-    <img src="images/logo.svg" alt="GreenBasket leaf growing from a produce basket">
-    <span class="brand">GreenBasket Farm Produce</span>
-  </header>
-
-  <!-- These links let visitors move between all four pages. -->
-  <nav aria-label="Main navigation">
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="services.html">Products</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-
-  <!-- The main section introduces the fictional farm-produce stall. -->
-  <main>
-    <h1>Fresh from the farm to your basket</h1>
-    <div class="box">
-      <p>Welcome to <span class="highlight">GreenBasket Farm Produce</span>, a small fictional produce stall in Monrovia, Liberia. We share fresh food from local farms at sample prices.</p>
-      <p>Explore our <a href="services.html">produce</a> or learn <a href="about.html">about our stall</a>.</p>
-    </div>
-
-    <!-- This local picture gives visitors an example of our produce. -->
-    <img class="home-image" src="images/cassava.jpg" alt="Cassava roots ready for sale at a produce stall">
-  </main>
-
-  <!-- The footer identifies this as a class project. -->
-  <footer><p>&copy; 2026 GreenBasket Farm Produce | Fictional ART 277 class project</p></footer>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GreenBasket Farm Produce | Home</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container navbar">
+        <a class="brand" href="index.html">🌿 Green<span>Basket</span></a>
+        <nav aria-label="Main navigation">
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Products &amp; Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <div class="eyebrow">Group 10 · Farm Produce Stall</div>
+          <h1>Fresh Produce, Straight From the Farm</h1>
+          <p>
+            Discover locally available agricultural products selected for
+            freshness, quality and everyday use. GreenBasket connects buyers
+            with farm produce in Liberia.
+          </p>
+          <a class="button" href="services.html">Explore Our Products</a
+          ><a class="button button-outline" href="contact.html"
+            >Send an Inquiry</a
+          >
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <div class="section-heading">
+            <h2>Our Five Core Products</h2>
+            <p>
+              These are sample products featured in our farm-produce website
+              project.
+            </p>
+          </div>
+          <div class="grid">
+            <article class="card">
+              <div class="product-image">
+                <img
+                  src="https://images.unsplash.com/photo-1757281096972-10fd02b0f5ea?auto=format&amp;fit=crop&amp;w=1200&amp;q=85"
+                  alt="Freshly harvested cassava tubers"
+                />
+              </div>
+              <div class="card-body">
+                <span class="tag">Farm produce</span>
+                <h3>Fresh Cassava</h3>
+                <p>Locally grown cassava tubers for cooking and processing.</p>
+              </div>
+            </article>
+            <article class="card">
+              <div class="product-image">
+                <img
+                  src="https://images.unsplash.com/photo-1721400500658-73222904fc5d?auto=format&amp;fit=crop&amp;w=1200&amp;q=85"
+                  alt="A bunch of fresh sweet plantains"
+                />
+              </div>
+              <div class="card-body">
+                <span class="tag">Farm produce</span>
+                <h3>Sweet Plantains</h3>
+                <p>
+                  Plantains suitable for boiling, frying and everyday meals.
+                </p>
+              </div>
+            </article>
+            <article class="card">
+              <div class="product-image">
+                <img
+                  src="https://img500.exportersindia.com/product_images/bc-500/dir_84/2515578/red-palm-oil-842253.jpg"
+                  alt="Pure red palm oil in a clean glass container"
+                />
+              </div>
+              <div class="card-body">
+                <span class="tag">Processed product</span>
+                <h3>Red Palm Oil</h3>
+                <p>Traditional cooking oil used in many Liberian dishes.</p>
+              </div>
+            </article>
+            <article class="card">
+              <div class="product-image"><img src="https://images.unsplash.com/photo-1659008582942-ee843fcaea4a?auto=format&amp;fit=crop&amp;w=1200&amp;q=85" alt="Fresh red and green hot peppers" /></div>
+              <div class="card-body">
+                <span class="tag">Farm produce</span>
+                <h3>Fresh Hot Peppers</h3>
+                <p>Peppers used to add heat and flavor to soups and sauces.</p>
+              </div>
+            </article>
+            <article class="card">
+              <div class="product-image"><img src="https://images.unsplash.com/photo-1516684732162-798a0062be99?auto=format&amp;fit=crop&amp;w=1200&amp;q=85" alt="Local rice grains ready for cooking" /></div>
+              <div class="card-body">
+                <span class="tag">Farm produce</span>
+                <h3>Local Country Rice</h3>
+                <p>Locally cultivated rice for household and market use.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="soft-section">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Why Choose GreenBasket?</h2>
+            <p>
+              Our project highlights the value of local agriculture and clear
+              product information.
+            </p>
+          </div>
+          <div class="grid">
+            <div class="info-card">
+              <h3>Local Products</h3>
+              <p>
+                We feature produce familiar to local farmers, buyers and
+                markets.
+              </p>
+            </div>
+            <div class="info-card">
+              <h3>Clear Information</h3>
+              <p>
+                Product descriptions and sample units help customers understand
+                what is offered.
+              </p>
+            </div>
+            <div class="info-card">
+              <h3>Simple Inquiries</h3>
+              <p>
+                Visitors can use our sample contact form to ask about
+                availability and quantities.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <h2>GreenBasket Farm Produce</h2>
+        <p>
+          Fresh local agricultural produce for households, markets and food
+          businesses.
+        </p>
+        <p>
+          Location: [Add your town/area] · Phone/WhatsApp: [Add your group
+          contact]
+        </p>
+        <div class="footer-bottom">
+          © 2026 GreenBasket Farm Produce · Group 10 · ART 277
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
