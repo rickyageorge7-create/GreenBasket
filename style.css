@@ -218,9 +218,15 @@ footer p { margin: 5px 0; }
 th { background: linear-gradient(105deg, #316B3C, #427D4B); }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; } }
 
-body::before { content: ''; position: fixed; inset: 0; z-index: 0; pointer-events: none; background: url('images/logo.svg') center 55% / min(72vw, 660px) no-repeat; opacity: .045; }
+body::before { content: ''; position: fixed; inset: 0; z-index: 0; pointer-events: none; background: url('images/logo.png') center 55% / min(72vw, 660px) no-repeat; opacity: .045; }
 
 
 body > * { position: relative; z-index: 1; }
 .brand > img { width: 60px; height: 60px; object-fit: contain; }
+
+
+.brand-name { display: grid; line-height: 1.05; color: var(--primary-green); }
+.brand-name strong { font-size: 1.3rem; letter-spacing: -.4px; }
+.brand-name small { margin-top: 5px; color: var(--muted); font-size: .68rem; font-weight: 800; letter-spacing: 2px; text-transform: uppercase; }
+.brand > img { width: 62px; height: 62px; border-radius: 50%; object-fit: cover; }
 
