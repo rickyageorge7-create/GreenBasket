@@ -111,7 +111,7 @@ The About page explains the purpose and audience of the project, describes Ricky
 - `<p>` for the student ID and role summary.
 - `<strong>` to make “Student ID” stand out.
 
-The group leader card intentionally uses `[Group Leader Name]` and `[Add ID]` placeholders until those details are supplied. Member role descriptions were drafted for the project and should be checked with each person before presenting them as factual contributions.
+The group leader, Serena S. Seton (Student ID 12059), is listed directly after Ricky A. George. Member role descriptions were drafted for the project and should be checked with each person before presenting them as factual contributions.
 
 ## 7. Products & Services page: `services.html`
 
@@ -229,11 +229,10 @@ At the top of `style.css`, `:root` defines custom properties. `:root` means the 
 
 The spelling and punctuation on the main pages are generally clear. The following content points deserve attention:
 
-1. The group leader placeholder must be replaced with the correct name and ID before final submission.
-2. The member role summaries are draft descriptions. Confirm them with the team so the presentation accurately reflects each person’s work.
-3. The prices on Products & Services are labelled fictional examples; keep that explanation when presenting.
-4. The product photos and watermark now use local image files. Keep `images/` alongside the HTML files when sharing or uploading the site.
-5. The inquiry form opens a prefilled email or WhatsApp draft; it does not automatically send or store messages.
+1. The member role summaries are draft descriptions. Confirm them with the team so the presentation accurately reflects each person’s work.
+2. The prices on Products & Services are labelled fictional examples; keep that explanation when presenting.
+3. The product photos and watermark now use local image files. Keep `images/` alongside the HTML files when sharing or uploading the site.
+4. The inquiry form opens a prefilled email or WhatsApp draft; it does not automatically send or store messages.
 
 ### Short presentation summary
 
