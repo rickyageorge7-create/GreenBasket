@@ -11,16 +11,17 @@
 <p>Use the sample inquiry form below to demonstrate labelled HTML form controls.</p></div></section>
 <section><div class="container"><div class="grid">
 <div class="info-card"><h3>Contact Details</h3><p><strong>Business:</strong> GreenBasket Farm Produce</p>
-<p><strong>Location:</strong> Monrovia, Liberia</p><p><strong>Phone / WhatsApp:</strong> 0775399168</p>
+<p><strong>Location:</strong> Monrovia, Liberia</p><p><strong>Email:</strong> <a href="mailto:rickyageorge2@gmail.com">rickyageorge2@gmail.com</a></p><p><strong>Phone / WhatsApp:</strong> <a href="https://wa.me/231775399168">0775399168</a></p>
 <p><strong>Hours:</strong> Monday–Saturday, 7:00 AM–6:00 PM</p></div>
 <div class="info-card"><h3>Customer Inquiry Form</h3>
-<form onsubmit="event.preventDefault(); alert('This is a class-project demo form. No message has been sent.');">
+<form onsubmit="return sendInquiry(event);">
 <div><label for="fullname">Full Name</label><input id="fullname" name="fullname" type="text" placeholder="Enter your name" required></div>
 <div><label for="phone">Phone Number</label><input id="phone" name="phone" type="tel" placeholder="Enter your phone number"></div>
 <div><label for="product">Product of Interest</label><select id="product" name="product" required><option value="">Choose a product</option><option>Cassava</option><option>Plantains</option><option>Red Palm Oil</option><option>Hot Peppers</option><option>Country Rice</option></select></div>
 <div><label for="message">Your Inquiry</label><textarea id="message" name="message" placeholder="Write your question or requested quantity" required></textarea></div>
-<button class="button" type="submit">Submit Sample Inquiry</button>
-<p class="form-note">Demonstration only: this form does not send or store information because no backend is connected.</p>
+<div><label for="send-via">Send inquiry using</label><select id="send-via" name="send-via" required><option value="whatsapp">WhatsApp</option><option value="email">Email</option></select></div>
+<button class="button" type="submit">Continue with Inquiry</button>
+<p class="form-note">Your inquiry will open in WhatsApp or your email app with the details filled in. Review it and press Send to contact us.</p>
 </form></div>
 </div></div></section>
 </main><footer><div class="container">
@@ -28,7 +29,28 @@
 <p>Fresh local agricultural produce for households, markets and food businesses.</p>
 <p>Location: Monrovia, Liberia · Phone/WhatsApp: 0775399168</p>
 <div class="footer-bottom">© 2026 GreenBasket Farm Produce · Group 10 · ART 277</div>
-</div></footer></body></html>
+</div></footer><script>
+function sendInquiry(event) {
+  event.preventDefault();
+  const form = event.currentTarget;
+  const data = new FormData(form);
+  const inquiry = [
+    'GreenBasket customer inquiry',
+    'Name: ' + data.get('fullname'),
+    'Phone: ' + (data.get('phone') || 'Not provided'),
+    'Product: ' + data.get('product'),
+    'Inquiry: ' + data.get('message')
+  ].join('\n');
+
+  if (data.get('send-via') === 'email') {
+    const subject = encodeURIComponent('GreenBasket Customer Inquiry');
+    window.location.href = 'mailto:rickyageorge2@gmail.com?subject=' + subject + '&body=' + encodeURIComponent(inquiry);
+  } else {
+    window.open('https://wa.me/231775399168?text=' + encodeURIComponent(inquiry), '_blank', 'noopener');
+  }
+  return false;
+}
+</script></body></html>
 
 
 
