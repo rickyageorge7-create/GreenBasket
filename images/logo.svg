@@ -1,7 +1,10 @@
-﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" role="img" aria-labelledby="title description">
-<title id="title">GreenBasket Farm Produce logo</title><desc id="description">A green sprout growing from a golden woven produce basket, framed by a leafy green circle.</desc>
-<defs><linearGradient id="basket" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F3D984"/><stop offset="1" stop-color="#E9C96A"/></linearGradient></defs>
-<circle cx="90" cy="90" r="84" fill="#EFF4EC"/><circle cx="90" cy="90" r="80" fill="none" stroke="#316B3C" stroke-width="3" stroke-dasharray="2 7"/>
-<path d="M90 94C88 70 96 48 115 31" fill="none" stroke="#316B3C" stroke-width="6" stroke-linecap="round"/><path d="M91 76C62 73 55 52 59 34c22 1 37 16 32 42Z" fill="#316B3C"/><path d="M97 62c2-24 23-37 43-33 0 22-16 39-42 43Z" fill="#427D4B"/><path d="M65 39c11 10 19 22 25 35m43-39c-13 8-24 18-33 31" fill="none" stroke="#E9C96A" stroke-width="2.5" stroke-linecap="round"/>
-<path d="M43 94q47-17 94 0" fill="none" stroke="#316B3C" stroke-width="8" stroke-linecap="round"/><path d="m49 99 12 48q29 17 58 0l12-48Z" fill="url(#basket)" stroke="#316B3C" stroke-width="5" stroke-linejoin="round"/><path d="m70 103 7 45m14-49v53m23-49-7 45M55 123q35 12 70 0" fill="none" stroke="#316B3C" stroke-width="4" stroke-linecap="round"/><circle cx="37" cy="71" r="4" fill="#E9C96A"/><circle cx="143" cy="71" r="4" fill="#E9C96A"/>
-</svg>
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="title desc">
+<title id="title">Green Basket Farm Produce</title><desc id="desc">Green Basket seal with a fresh sprout and a golden basket of vegetables.</desc>
+<defs><path id="topArc" d="M 52,205 A 148,148 0 0,1 348,205"/><linearGradient id="basket" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#F1D587"/><stop offset="1" stop-color="#D4A750"/></linearGradient></defs>
+<circle cx="200" cy="200" r="192" fill="#F8F5E9"/><circle cx="200" cy="200" r="180" fill="#1F4028"/><circle cx="200" cy="200" r="169" fill="none" stroke="#F8F5E9" stroke-width="5"/>
+<text fill="#F8F5E9" font-family="Arial,sans-serif" font-size="35" font-weight="900" letter-spacing="2"><textPath href="#topArc" startOffset="50%" text-anchor="middle">GREEN BASKET</textPath></text>
+<circle cx="200" cy="222" r="112" fill="#FBF8ED" stroke="#BC9146" stroke-width="5"/>
+<path d="M130 245q-30-57 8-78 30 20 3 75m9-40q-5-59 35-65 22 35-23 70m31-5q19-62 57-42 6 39-48 61m-35-1q-14-45 13-59 24 20 6 60" fill="#4D813F" stroke="#316B3C" stroke-width="3"/>
+<path d="M159 231q0-27 25-30 26 5 23 31-22 17-48-1m34-2q0-26 25-29 26 5 23 31-22 17-48-2" fill="#D64A36"/><path d="m179 202 5 10 10-5-6 11 5 8-12-4-9 5 2-12-8-5 12-1m35-7 5 10 10-5-6 11 5 8-12-4-9 5 2-12-8-5 12-1" fill="#316B3C"/>
+<path d="M103 246q97-20 194 0" fill="none" stroke="#714B2A" stroke-width="12" stroke-linecap="round"/><path d="m108 249 17 91q75 39 150 0l17-91Z" fill="url(#basket)" stroke="#714B2A" stroke-width="7" stroke-linejoin="round"/><path d="m139 255 12 81m35-88 3 98m39-98-5 89m-93-49q69 20 139 0" fill="none" stroke="#FFF0BE" stroke-width="7" stroke-linecap="round"/>
+<text x="200" y="370" text-anchor="middle" fill="#F8F5E9" font-family="Arial,sans-serif" font-weight="800" font-size="14" letter-spacing="3">FARM FRESH • LIBERIA</text></svg>

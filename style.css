@@ -217,3 +217,10 @@ footer p { margin: 5px 0; }
 .info-card:hover { transform: translateY(-4px); border-color: rgba(49,107,60,.3); box-shadow: var(--shadow); }
 th { background: linear-gradient(105deg, #316B3C, #427D4B); }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; } }
+
+body::before { content: ''; position: fixed; inset: 0; z-index: 0; pointer-events: none; background: url('images/logo.svg') center 55% / min(72vw, 660px) no-repeat; opacity: .045; }
+
+
+body > * { position: relative; z-index: 1; }
+.brand > img { width: 60px; height: 60px; object-fit: contain; }
+
