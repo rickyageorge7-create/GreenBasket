@@ -1,4 +1,4 @@
-:root {
+﻿:root {
   --primary-green: #316B3C;
   --secondary-green: #427D4B;
   --accent-yellow: #E9C96A;
@@ -45,7 +45,9 @@ a { color: inherit; text-decoration: none; }
   font-weight: 800;
   letter-spacing: -.5px;
 }
-.brand span { color: #9A7724; }
+.brand-name > span { color: #9A7724; }
+.brand { display: inline-flex; align-items: center; gap: 10px; }
+.brand > img { width: 48px; height: 48px; }
 .nav-links {
   list-style: none;
   display: flex;
@@ -188,3 +190,5 @@ footer p { margin: 5px 0; }
   .grid { grid-template-columns: 1fr; }
   .button-outline { margin: 10px 0 0; }
 }
+
+

@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420">
-<rect width="640" height="420" fill="#EFF4EC"/><path d="M0 330 Q160 290 320 330 T640 320 V420 H0Z" fill="#DCE8D7"/>
-<g fill="#C99B61" stroke="#8A6238" stroke-width="8" stroke-linecap="round">
-<path d="M180 270 Q135 190 185 95 Q220 45 245 105 Q260 190 215 275Z"/>
-<path d="M280 285 Q245 205 295 120 Q330 75 350 130 Q365 210 320 290Z"/>
-<path d="M390 280 Q365 210 405 130 Q445 80 465 140 Q475 220 430 290Z"/>
-</g><g stroke="#F3D9B3" stroke-width="7" fill="none"><path d="M190 125l30 100M300 150l30 100M415 160l25 95"/></g>
-<text x="320" y="380" font-family="Arial" font-size="30" text-anchor="middle" fill="#316B3C" font-weight="bold">FRESH CASSAVA</text></svg>

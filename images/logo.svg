@@ -1,18 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title description">
-  <title id="title">GreenBasket Farm Produce logo</title>
-  <desc id="description">A green leaf growing from a golden produce basket</desc>
-  <!-- A warm circle makes the simple green basket logo easy to see. -->
-  <circle cx="80" cy="80" r="76" fill="#E9C96A"/>
-  <!-- The stem connects the leaf to the basket. -->
-  <path d="M80 78 C78 59 83 42 96 29" fill="none" stroke="#316B3C" stroke-width="5" stroke-linecap="round"/>
-  <!-- Two leaf shapes form a small growing plant. -->
-  <path d="M80 63 C54 60 50 41 54 27 C73 28 86 41 80 63Z" fill="#316B3C"/>
-  <path d="M82 49 C83 29 101 19 117 22 C116 40 102 53 82 55Z" fill="#4E8B50"/>
-  <path d="M58 31 C67 40 74 49 80 60 M112 27 C100 34 91 42 84 52" fill="none" stroke="#E9C96A" stroke-width="2"/>
-  <!-- The basket rim and curved body sit below the growing leaf. -->
-  <path d="M36 78 Q80 65 124 78" fill="none" stroke="#316B3C" stroke-width="7" stroke-linecap="round"/>
-  <path d="M42 82 L52 125 Q80 139 108 125 L118 82Z" fill="#316B3C"/>
-  <!-- Gold lines suggest woven basket slats. -->
-  <path d="M58 85 L64 128 M80 82 L80 133 M102 85 L96 128" fill="none" stroke="#E9C96A" stroke-width="4" stroke-linecap="round"/>
-  <path d="M47 102 Q80 111 113 102" fill="none" stroke="#E9C96A" stroke-width="3"/>
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 100" role="img" aria-labelledby="title">
+<title id="title">GreenBasket farm produce</title>
+<defs><linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#427D4B"/><stop offset="1" stop-color="#316B3C"/></linearGradient></defs>
+<circle cx="50" cy="50" r="45" fill="#EFF4EC"/><path d="M50 72V42" fill="none" stroke="#316B3C" stroke-width="5" stroke-linecap="round"/><path d="M49 51C27 50 22 35 26 22c17 0 29 8 27 26M51 43c0-17 11-27 26-29 3 18-5 30-26 34" fill="url(#leaf)"/><path d="M30 57h40l-5 19H35z" fill="#E9C96A" stroke="#316B3C" stroke-width="3" stroke-linejoin="round"/><path d="M36 62h28" stroke="#316B3C" stroke-width="3" stroke-linecap="round"/><text x="105" y="48" font-family="Arial, sans-serif" font-size="28" font-weight="800" fill="#316B3C">Green</text><text x="186" y="48" font-family="Arial, sans-serif" font-size="28" font-weight="800" fill="#9A7724">Basket</text><text x="107" y="70" font-family="Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="2" fill="#526056">FARM PRODUCE</text>
 </svg>
