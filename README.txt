@@ -4,9 +4,10 @@ FILES
 - index.html: Home page
 - about.html: Project information and group members
 - services.html: Products, sample units/prices table, and produce photos
-- contact.html: Sample customer inquiry form
+- contact.html: Customer inquiry form for email or WhatsApp drafts
 - style.css: Shared Group 10 colors and website styling
 - images/: GreenBasket logo photo and product photos
+- PRESENTATION_STUDY_GUIDE.md: Explanation of the HTML, CSS, pages, and form
 
 HOW TO USE
 1. Extract the ZIP file.
@@ -16,10 +17,11 @@ HOW TO USE
 
 BEFORE SUBMISSION
 - Confirm member names, IDs, roles, and fill in the group leader placeholder.
-- Add the group's real location and approved contact number in the footer/contact page.
-- Confirm that the listed members' names and IDs are correct.
+- Confirm that member names, IDs, and role summaries are correct.
+- Replace the group leader name and ID placeholders when those details are available.
+- The location and contact details are currently set to Monrovia, Liberia and 0775399168.
 - The sample prices are fictional for classroom demonstration; replace them if researched prices are required.
-- The contact form is a front-end demonstration only; it does not send messages.
+- The contact form opens a prefilled email or WhatsApp draft; the customer must press Send.
 - The uploaded GreenBasket seal is used as the site logo and watermark. Product photographs are stored in images/.
 - Keep the images folder in the same project folder so the image paths work.
 
